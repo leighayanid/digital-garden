@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 dark:bg-slate-900 dark:text-slate-50;
+}
+
+.container {
+  @apply md:px-72 py-4 px-4;
+}
+
+.nuxt-content-highlight {
+  @apply relative;
+}
+
+.nuxt-content-highlight .filename {
+  @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
+}
+
+h1 {
+  @apply text-lg font-bold;
+}
