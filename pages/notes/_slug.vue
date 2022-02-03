@@ -6,21 +6,29 @@
 
 				<p class="italic">{{ note.description }}</p>
 
-				<img v-if="note.img" :src="note.img" :alt="note.alt" />
-
 				<p class="text-gray-500">
 					Article last updated: {{ formatDate(note.updatedAt) }}
 				</p>
+
+				<nuxt-img
+					v-if="note.img"
+					:src="`/images/${note.img}`"
+					:alt="note.alt"
+					class="rounded-lg my-5"
+				/>
 			</div>
 
-			<table-of-content :toc="note.toc" class="my-5" />
+			<table-of-content v-if="note.toc" :toc="note.toc" class="my-5" />
+
 			<nuxt-content
 				:document="note"
 				tag="note"
 				class="prose dark:text-slate-50 dark:prose-headings:text-slate-50"
 			></nuxt-content>
+
 			<prev-next :prev="prev" :next="next" class="my-5" />
 		</article>
+
 		<div class="flex justify-between items-center my-10">
 			<author :author="note.author" :tags="note.tags" class="mx-auto" />
 		</div>

@@ -30,6 +30,7 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxt/postcss8',
     '@nuxtjs/color-mode',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -61,6 +62,10 @@ export default {
     preference: 'light', // default value of $colorMode.preference
     fallback: 'light',
     classSuffix: '',
+  },
+
+  image: {
+    // Options
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
