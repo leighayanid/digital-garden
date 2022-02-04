@@ -49,6 +49,15 @@ export default {
 			tags,
 		}
 	},
+
+	head() {
+		return {
+			script: [
+				{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+			],
+		}
+	},
+
 	methods: {
 		// filter notes by ascending/descending order of createdAt
 		async sortBy(order) {

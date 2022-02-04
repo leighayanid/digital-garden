@@ -6,10 +6,6 @@ tags:
   - nuxt
   - content
   - blog
-author:
-  name: Leigh Dinaya
-  bio: Front-end developer, writer, and a gym rat.
-  image: https://github.com/leighayanid.png
 ---
 
 Hello, World!

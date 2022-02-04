@@ -30,7 +30,7 @@
 		</article>
 
 		<div class="flex justify-between items-center my-10">
-			<author :author="note.author" :tags="note.tags" class="mx-auto" />
+			<author :tags="note.tags" class="mx-auto" />
 		</div>
 	</div>
 </template>
