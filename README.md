@@ -2,7 +2,7 @@
 
 My digital garden.
 
-Powered by Nuxt.js and Nuxt Content module.
+Powered by Nuxt.js, Nuxt Content and Netlify CMS.
 
 ## Features include but not limited to
 
@@ -16,6 +16,7 @@ Powered by Nuxt.js and Nuxt Content module.
 - 🚧 Pagination
 - ✅ Statically generated
 - ✅ Hosted on Netlify
+- ✅ Netlify CMS
 
 Feel free to use this as a template for your own digital garden.
 
