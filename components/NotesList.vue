@@ -4,7 +4,7 @@
 			<base-card>
 				<NuxtLink :to="`/notes/${note.slug}`">
 					<div class="flex items-center">
-						<p class="font-thin text-sm">{{ formatDate(note.createdAt) }} -</p>
+						<p class="font-thin text-sm">{{ formatDate(note.date) }} -</p>
 						<h2 class="ml-2 underline">{{ note.title }}</h2>
 					</div>
 				</NuxtLink>

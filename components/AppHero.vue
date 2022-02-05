@@ -2,7 +2,7 @@
 	<div class="my-2 flex justify-between items-center">
 		<div class="">
 			<h1 class="mb-2 font-extrabold text-lg">
-				Welcome to Leigh's Digital Garden
+				Welcome to Leigh's Digital Garden 💮
 			</h1>
 			<p class="font-thin">
 				A collection of thoughts, ideas, highlights, annotations, summaries,

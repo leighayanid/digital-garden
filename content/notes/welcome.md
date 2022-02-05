@@ -1,6 +1,7 @@
 ---
 title: Welcome to my first Nuxt content blog
 description: Learning how to use @nuxt/content to create a digital garden
+date: 2022-02-02
 alt: my first blog post
 tags:
   - nuxt

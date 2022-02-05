@@ -1,6 +1,7 @@
 ---
 title: Vue 3 with Vite, Tailwind CSS, ESLint and Prettier
 description: Learn how to set up Vue 3 project with Vite, TailwindCSS, Eslint and Prettier
+date: 2022-02-04
 tags:
   - vite
   - tailwindcss
