@@ -1,8 +1,8 @@
 <template>
 	<div class="h-auto">
-		<article class="space-y-2 my-5">
+		<article class="my-5">
 			<div class="text-center mx-auto">
-				<h1 class="text-xl font-extrabold">{{ note.title }}</h1>
+				<h1 class="text-xl font-extrabold mt-5">{{ note.title }}</h1>
 
 				<p class="italic">{{ note.description }}</p>
 

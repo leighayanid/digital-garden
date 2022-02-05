@@ -13,5 +13,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+	props: {
+		tags: {
+			type: Array,
+			required: true,
+		},
+	},
+}
 </script>
