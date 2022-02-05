@@ -44,7 +44,21 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: "Leigh's Digital Garden",
+      short_name: "Leigh's Digital Garden",
       lang: 'en',
+      description: 'A digital garden for Leigh',
+      background_color: '#fafafa',
+      theme_color: '#fafafa',
+      display: 'standalone',
+      start_url: '/',
+      icons: [
+        {
+          src: '/favicon.ico',
+          sizes: '512x512',
+          type: 'image/x-icon',
+        },
+      ],
     },
   },
 
