@@ -10,9 +10,9 @@ export default {
 	async asyncData({ $content, params }) {
 		const tag = params.tag
 		const notes = await $content('notes')
-			.only(['title', 'slug', 'createdAt', 'tags'])
+			.only(['title', 'slug', 'date', 'tags'])
 			.where({ tags: { $contains: tag } })
-			.sortBy('createdAt', 'asc')
+			.sortBy('date', 'asc')
 			.fetch()
 
 		return {
